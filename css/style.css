@@ -1,0 +1,44 @@
+*{
+   padding: 0;
+   margin: 0;
+   font-family: 'Montserrat', sans-serif;
+}
+.bgimg{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../Untitled design (9).png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(231, 255, 253);
+}
+.profile{
+    width: 525px;
+    height: 450px;
+    background-color: rgba(89, 78, 78, 0.3);
+    padding-top: 30px; 
+    padding-bottom: 30px;
+    border-radius: 10%;
+}
+.ptext{
+    margin-bottom: 20px;
+}
+.ptext h2{
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+.ptext h3{
+    font-size: 1.2em;
+    color: rgb(232, 253, 247);
+    margin-bottom: 20px;
+}
+img{
+    height: 250px; margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+}
+i{
+    color: white;
+}
