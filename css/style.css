@@ -16,11 +16,11 @@
 }
 .profile{
     width: 525px;
-    height: 450px;
+    height: 460px;
     background-color: rgba(89, 78, 78, 0.3);
     padding-top: 30px; 
     padding-bottom: 30px;
-    border-radius: 10%;
+    border-radius: 60%;
 }
 .ptext{
     margin-bottom: 20px;
