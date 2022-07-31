@@ -6,7 +6,7 @@
 .bgimg{
     width: 100%;
     height: 100vh;
-    background-image: url("../Untitled design (9).png");
+    background-image: url("../images/Untitled design (9).png");
     background-size: cover;
     display: flex;
     align-items: center;
@@ -132,3 +132,34 @@ hr{
     background-color: #08d456;
   }
   /* skill */
+
+  /*projects  */
+  .portfolio .portfolio-item {
+    margin-bottom: 30px;
+    cursor: pointer;
+  }
+  
+  
+  .portfolio .portfolio-wrap {
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    border-radius: 10px;
+  }
+
+  .portfolio .portfolio-wrap img{
+    -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  }
+
+  .portfolio .portfolio-wrap:hover img{
+    -webkit-filter: grayscale(80%);
+	filter: grayscale(80%);
+  }
+  
+  
+  
+  
