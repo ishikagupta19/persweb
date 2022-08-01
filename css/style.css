@@ -48,7 +48,53 @@ hr{
     margin-bottom: 0rem !important;
 }
 
-
+/* Header **/
+header {
+    background: #0000005f;
+    color: #ffffff;
+    padding-top: 10px;
+    position: fixed;
+    width: 100vw;
+    
+  }
+  
+  header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  
+  header li {
+    /* float: left; */
+    display: inline;
+    padding: 0 10px 0 10px;
+  }
+  
+  header #branding {
+    float: left;
+    
+  }
+  
+  /* header #branding h1 {
+    margin: 0;
+  } */
+  
+  header nav {
+    float: right;
+    margin-top: 7px;
+  }
+  
+  header .highlight,
+  header .current a {
+    color: #34d6d4;
+    font-weight: bold;
+  }
+  
+  header a:hover {
+    color: #fff68e;
+    font-weight: bold;
+  }
 /* skill */
 
 .skills .progress {
