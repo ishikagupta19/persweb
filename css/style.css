@@ -5,7 +5,7 @@
 }
 .bgimg{
     width: 100%;
-    height: 75vh;
+    height: 80vh;
     background-image: url("../images/Untitled design (9).png");
     background-size: cover;
     display: flex;
@@ -94,12 +94,12 @@ header {
   
   header .highlight,
   header .current a {
-    color: #34d6d4;
+    color: #d63465;
     font-weight: bold;
   }
   
   header a:hover {
-    color: #fff68e;
+    color: #d63465;
     font-weight: bold;
   }
 /* skill */
@@ -116,8 +116,7 @@ header {
     margin: 0 0 6px 0;
     text-transform: uppercase;
     display: block;
-    font-weight: 600;
-    font-family: "Poppins", sans-serif;
+
     color: #ffffff;
   }
   
@@ -129,61 +128,72 @@ header {
   .skills .progress-bar-wrap {
     background: #ffffff;
     height: 10px;
+    border-radius: 25px;
   }
   
   .skills .progress-bar1 {
     width: 90%;
     height: 10px;
     transition: 0.9s;
-    background-color: #08d456;
+    border-radius: 25px;
+    background: linear-gradient(90deg, rgba(10,97,0,1) 0%, rgb(172, 225, 149) 29%);
+    
   }
   .skills .progress-bar2 {
     width: 60%;
     height: 10px;
     transition: 0.9s;
-    background-color: #08d456;
+    border-radius: 25px;
+    background: linear-gradient(90deg, rgba(10,97,0,1) 0%, rgb(172, 225, 149) 29%);
   }
   .skills .progress-bar3 {
     width: 70%;
     height: 10px;
     transition: 0.9s;
-    background-color: #08d456;
+    border-radius: 25px;
+    background: linear-gradient(90deg, rgba(10,97,0,1) 0%, rgb(172, 225, 149) 29%);
   }
   .skills .progress-bar4 {
     width: 70%;
     height: 10px;
     transition: 0.9s;
-    background-color: #08d456;
+    border-radius: 25px;
+    background: linear-gradient(90deg, rgba(10,97,0,1) 0%, rgb(172, 225, 149) 29%);
   }
   .skills .progress-bar5 {
     width: 70%;
     height: 10px;
     transition: 0.9s;
-    background-color: #08d456;
+    border-radius: 25px;
+    background: linear-gradient(90deg, rgba(10,97,0,1) 0%, rgb(172, 225, 149) 29%);
   }
   .skills .progress-bar6 {
     width: 80%;
     height: 10px;
     transition: 0.9s;
-    background-color: #08d456;
+    border-radius: 25px;
+    background: linear-gradient(90deg, rgba(10,97,0,1) 0%, rgb(172, 225, 149) 29%);
   }
   .skills .progress-bar7 {
     width: 50%;
     height: 10px;
     transition: 0.9s;
-    background-color: #08d456;
+    border-radius: 25px;
+    background: linear-gradient(90deg, rgba(10,97,0,1) 0%, rgb(172, 225, 149) 29%);
   }
   .skills .progress-bar8 {
     width: 60%;
     height: 10px;
     transition: 0.9s;
-    background-color: #08d456;
+    border-radius: 25px;
+    background: linear-gradient(90deg, rgba(10,97,0,1) 0%, rgb(172, 225, 149) 29%);
   }
   .skills .progress-bar9 {
     width: 85%;
     height: 10px;
     transition: 0.9s;
-    background-color: #08d456;
+    border-radius: 25px;
+    background: linear-gradient(90deg, rgba(10,97,0,1) 0%, rgb(172, 225, 149) 29%);
   }
   /* skill */
 
